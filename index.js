@@ -22,10 +22,11 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  newKittensArray = kittens.push(name);
+  newArr.concat(kittens);
+  newArr.push(name);
   return newKittensArray;
 }
 
 function prependKitten(name) {
-  
+  newKittensArray = kittens.unshift()
 }
